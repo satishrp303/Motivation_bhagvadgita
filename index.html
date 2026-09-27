@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f4ec">
+  <meta name="description" content="Find timeless Bhagavad Gita wisdom and its meaning in five Indian languages.">
+  <title>Gita Within — Wisdom for your day</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="story.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Gita Within home"><span class="brand-mark">ॐ</span><span>Gita <b>Within</b></span></a>
+    <nav aria-label="Main navigation"><a id="nav-wisdom" href="#wisdom">Daily wisdom</a><a id="nav-teachings" href="#teachings">Teachings</a></nav>
+    <label class="language-control"><span class="globe" aria-hidden="true">◎</span><span class="sr-only">Choose language</span><select id="language-select" aria-label="Choose your language"><option value="hi">हिन्दी</option><option value="bn">বাংলা</option><option value="ta">தமிழ்</option><option value="te">తెలుగు</option><option value="mr">मराठी</option></select><span class="chevron">⌄</span></label>
+  </header>
+  <main id="home">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy"><div class="eyebrow"><span class="eyebrow-line"></span><span id="hero-eyebrow">TIMELESS WISDOM · EVERYDAY COURAGE</span></div><h1 id="hero-title">A little wisdom<br>for the <em>way forward.</em></h1><p id="hero-description">Ancient words. A clearer mind. Let the Bhagavad Gita meet you wherever you are today.</p><a class="hero-link" href="#wisdom"><span id="hero-cta">Find today’s wisdom</span> <span>↓</span></a></div>
+      <div class="hero-art" aria-hidden="true">
+        <svg class="battle-scene" viewBox="0 0 760 520" role="img" aria-label="An illustrated scene of Krishna guiding Arjuna's chariot on the battlefield">
+          <defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#f6d9a7"/><stop offset=".62" stop-color="#d9794e"/><stop offset="1" stop-color="#664339"/></linearGradient><linearGradient id="sunrise" x2="0" y2="1"><stop stop-color="#fff3c8"/><stop offset="1" stop-color="#eea36e"/></linearGradient><linearGradient id="cloth" x2="0" y2="1"><stop stop-color="#e2a345"/><stop offset="1" stop-color="#9c502d"/></linearGradient><radialGradient id="glow"><stop stop-color="#fff8dd" stop-opacity=".85"/><stop offset="1" stop-color="#ffe7bc" stop-opacity="0"/></radialGradient></defs>
+          <circle cx="425" cy="235" r="218" fill="none" stroke="#bc8653" stroke-opacity=".25"/><circle cx="425" cy="235" r="245" fill="none" stroke="#bc8653" stroke-opacity=".22"/>
+          <path class="rays" d="M426 190 80 66m349 141L185 5m250 212L296 0m138 220L424 0m7 212L568 20m-137 204L702 84" stroke="#fff1d5" stroke-opacity=".32" stroke-width="2"/>
+          <rect x="38" y="35" width="684" height="433" rx="210" fill="url(#sky)"/><circle cx="474" cy="203" r="125" fill="url(#glow)"/><circle cx="474" cy="203" r="61" fill="url(#sunrise)"/>
+          <path d="M38 348q100-53 198-2t190-7q129-64 296 7v122H38z" fill="#a5533a" opacity=".76"/><path d="M38 390q105-61 225-10t208-8q128-49 251 22v74H38z" fill="#533c34"/>
+          <g class="distant-flags" fill="#70423a"><path d="M120 300v-85h5v85zm4-80 43 10-43 17zm453 83v-104h5v104zm5-98 43 11-43 17zM208 321v-55h4v55zm4-51 28 7-28 12z"/><path d="M90 375q7-39 14 0m21-11q6-35 12 0m456 20q7-42 14 0m22-13q6-31 12 0" stroke="#c08a57" stroke-width="2" fill="none"/></g>
+          <!-- chariot -->
+          <g class="chariot">
+            <path d="M278 286q87-63 192 0l-23 91H296z" fill="url(#cloth)" stroke="#733e2a" stroke-width="5"/><path d="M273 289q100-88 203 0z" fill="#d69a4d" stroke="#80502e" stroke-width="5"/><path d="m298 284 77-83 80 83" fill="#923f31" stroke="#6f392e" stroke-width="6"/><path d="M376 202v-40m-9 12 9-15 10 15" stroke="#edc273" stroke-width="5" fill="none"/><path d="M292 299h166m-150 15h134" stroke="#f4cb74" stroke-width="5"/>
+            <circle cx="319" cy="393" r="51" fill="#684133" stroke="#d9a357" stroke-width="9"/><circle cx="319" cy="393" r="11" fill="#e9c178"/><path d="M319 345v96m-48-48h96m-82-34 68 68m0-68-68 68" stroke="#d9a357" stroke-width="5"/>
+            <circle cx="449" cy="393" r="51" fill="#684133" stroke="#d9a357" stroke-width="9"/><circle cx="449" cy="393" r="11" fill="#e9c178"/><path d="M449 345v96m-48-48h96m-82-34 68 68m0-68-68 68" stroke="#d9a357" stroke-width="5"/>
+            <path d="M285 334q-42 5-64-29m62 43q-52 26-93 7" fill="none" stroke="#e3b568" stroke-width="5"/>
+          </g>
+          <!-- Krishna, the charioteer -->
+          <g class="krishna-figure">
+            <path d="M370 280q8-29 35-31 31 2 38 31l9 63h-89z" fill="#316877"/><path d="m372 298-30 44m99-43 32 38" stroke="#315d68" stroke-width="13" stroke-linecap="round"/><path d="M387 250q-5-37 20-41 29 3 24 42l-9 18h-25z" fill="#487f8a"/><path d="M389 216q18-33 42-6l-6 12q-18-9-34 4z" fill="#e9b954"/><circle cx="409" cy="204" r="3" fill="#fff2ce"/><path d="M408 194v-27m-11 16 11-18 12 18" fill="none" stroke="#e8c56b" stroke-width="4"/>
+            <path d="M398 276q13 14 29 0" fill="none" stroke="#e8bf6b" stroke-width="3"/><path d="M411 258v83" stroke="#e8c56b" stroke-width="2" opacity=".8"/>
+          </g>
+          <!-- Arjuna listening -->
+          <g class="arjuna-figure"><path d="M480 290q19-25 43-5l19 65h-69z" fill="#9c4737"/><path d="m490 305-29 28m64-24 24 25" stroke="#a5513e" stroke-width="11" stroke-linecap="round"/><path d="M493 284q-4-29 17-32 23 3 20 32l-6 12h-25z" fill="#b2784e"/><path d="M491 256q20-18 42 0l-4 8h-37z" fill="#ddae59"/><path d="M494 352h48" stroke="#edc36d" stroke-width="5"/><path d="M510 241q29-39 44-9-14-10-29 14" fill="none" stroke="#d0a451" stroke-width="3"/></g>
+          <path d="M36 465q80 30 157 0 92 40 178 1 111 36 203-1 86 36 150-1v34H36z" fill="#47362f" opacity=".9"/>
+        </svg>
+        <div class="art-caption">KURUKSHETRA · THE TURNING POINT</div>
+      </div>
+      <div class="hero-number" aria-hidden="true">01 <span>— 05</span></div>
+    </section>
+    <section class="story-section" id="krishna-story" aria-labelledby="story-title">
+      <div class="story-heading"><div class="eyebrow"><span class="eyebrow-line"></span><span id="story-eyebrow">A STORY FROM THE BATTLEFIELD</span></div><h2 id="story-title">Let me tell you, Arjuna.</h2><p id="story-intro">In my own voice, a moment at a time.</p><span id="story-adapted" class="story-adapted">AN ADAPTED RETELLING INSPIRED BY THE GITA</span></div>
+      <div class="story-card">
+        <div class="story-art" aria-hidden="true"><div class="story-orbit orbit-a"></div><div class="story-orbit orbit-b"></div><div class="story-sun"></div><div class="story-om">ॐ</div><div class="story-land"></div><span class="story-chariot-mark">❋</span></div>
+        <div class="story-content"><div class="story-step"><span id="story-step-count">01</span><span class="story-step-line"></span><span id="story-chapter">BEFORE THE BATTLE</span></div><div id="story-speaker" class="story-speaker">KRISHNA <span>·</span> TO ARJUNA</div><p id="story-text" class="story-text"></p><div class="story-controls"><button id="story-play" type="button"><span id="story-play-icon" aria-hidden="true">▶</span><span id="story-play-label">Listen to Krishna</span></button><span class="story-control-divider"></span><button id="story-prev" type="button" aria-label="Previous story chapter">←</button><button id="story-next" type="button" aria-label="Next story chapter">→</button></div><div class="story-progress" aria-label="Story progress"><span class="active"></span><span></span><span></span><span></span><span></span></div></div>
+      </div>
+    </section>
+    <section id="wisdom" class="daily-section">
+      <div class="section-heading"><div><div class="eyebrow"><span class="eyebrow-line"></span><span id="daily-eyebrow">YOUR DAILY PAUSE</span></div><h2 id="daily-title">Wisdom to carry with you</h2></div><div class="date-chip"><span class="date-dot"></span><span id="today-label">TODAY’S VERSE</span></div></div>
+      <article class="quote-card" aria-live="polite">
+        <div class="quote-left"><div class="chapter-label"><span>BHAGAVAD GITA</span><span class="chapter-rule"></span><span id="verse-ref">CHAPTER 2 · VERSE 47</span></div><div class="sanskrit" id="sanskrit-text" lang="sa"></div><div class="transliteration" id="transliteration"></div><div class="quote-divider"><span>✳</span></div><blockquote id="quote-text"></blockquote><div class="quote-actions"><button id="share-button" class="share-button" type="button"><span aria-hidden="true">↗</span><span id="share-label">Share this wisdom</span></button><button id="copy-button" class="copy-button" type="button" aria-label="Copy quote" title="Copy quote">▢</button><span id="copy-status" class="sr-only" aria-live="polite"></span></div></div>
+        <aside class="meaning-panel"><span class="meaning-icon" aria-hidden="true">✺</span><div class="meaning-label" id="meaning-label">THE MEANING</div><p id="meaning-text"></p><div class="meaning-foot"><span class="foot-rule"></span><span>REFLECT · RESET · RISE</span></div></aside>
+      </article>
+      <div class="quote-navigation"><span id="verse-count">01 <i>/</i> 05</span><div class="nav-buttons"><button id="prev-button" type="button" aria-label="Previous verse">←</button><button id="next-button" type="button" aria-label="Next verse">→</button></div><span class="nav-hint">TAKE A MOMENT TO REFLECT</span></div>
+    </section>
+    <section id="teachings" class="closing"><div class="closing-symbol" aria-hidden="true">❋</div><p id="closing-quote">“When the mind is still, wisdom finds its voice.”</p><span id="closing-caption">RETURN TO YOURSELF, ONE VERSE AT A TIME</span></section>
+  </main>
+  <footer><a class="brand footer-brand" href="#home"><span class="brand-mark">ॐ</span><span>Gita <b>Within</b></span></a><span>Inspired by the timeless teachings of the Bhagavad Gita.</span><a href="#home">Back to top ↑</a></footer>
+  <script src="app.js"></script>
+  <script src="story.js"></script>
+</body>
+</html>
